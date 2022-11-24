@@ -29,7 +29,7 @@ export default function Home() {
 
     let interval:NodeJS.Timer;
     const startTimer=()=>{
-        const countDownDate = new Date("Nov 28,2022").getTime()
+        const countDownDate = new Date("Dec 12,2022").getTime()
         interval=setInterval(()=>{
             const presentDate = new Date().getTime()
             const timeDifference = countDownDate - presentDate;
@@ -56,7 +56,7 @@ export default function Home() {
 
  
   return (
-    <Box className={styles.container}>
+    <Box className={styles.container} bgColor="gray.800" backdropFilter='invert(100%)'>
       <Head>
         <title>Task</title>
         <meta name="description" content="Cards of products" />
@@ -64,8 +64,8 @@ export default function Home() {
       </Head>
 
      <Box>
-      <Text fontSize={"4xl"} textAlign="center" fontWeight="bold" m="10" bgClip="text" color="transparent" bgGradient="linear(to-l, #7928CA, #FF0080)" >BLACK FRIDAY SALES IS ON 🌟</Text>
-     <SimpleGrid columns={[1,1,1,3]}  mx="auto">
+      <Text fontSize={"4xl"} textAlign="center" fontWeight="bold" p="10" bgClip="text"  color="transparent" bgGradient="linear(to-l, #7928CA, #FF0080)" >BLACK FRIDAY SALES IS ON </Text>
+     <SimpleGrid columns={[1,1,2,3]} gap={[3,3,4,10]} mx="auto" ml={[22,22,35, 35]}>
      {datas.map((data)=>{
        console.log(data)
         return(
