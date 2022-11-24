@@ -1,0 +1,22 @@
+[
+    {
+      "id":1,
+    "badge1":"Hot Deal",
+      "badge2":"Auction",
+      "picture":"https://img.freepik.com/premium-photo/3d-vr-goggles-icon-virtual-reality-technology-metaverse-3d-render-illustration_73903-1187.jpg?w=2000",
+      "productCode":"#B8/457843",
+      "bidderName":"Enoch Citizen",
+      "bidPrice":260
+    },
+    
+      {
+        "id":2,
+    "badge1":"Hot Deal",
+      "badge2":"Auction",
+      "picture":"https://unblast.com/wp-content/uploads/2020/03/Boja-Pendant-Lamp-3D-Model.jpg",
+      "productCode":"#B8/457844",
+      "bidderName":"Joe Smith",
+      "bidPrice":260
+    }
+    
+    ]

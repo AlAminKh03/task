@@ -1,0 +1,12 @@
+[
+    {
+      "id":1,
+    "badge1":"Hot Deal",
+      "badge2":"Sale",
+      "picture":"https://media.sketchfab.com/models/ee94f389defd4bf9accd8864d6cec11c/thumbnails/2a574cfccd1f416e8ddf478ed1f64e67/50d7d9d220dc4ef4b6b6299d387e6efe.jpeg",
+      "productCode":"#B8/457847",
+      "bidderName":"Brandon Eich",
+      "regularPrice":300,
+      "offer":15
+    }
+]
